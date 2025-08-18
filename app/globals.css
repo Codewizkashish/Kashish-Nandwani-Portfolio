@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: oklch(0.1 0 0);
+  --color-foreground: oklch(0.985 0 0);
+  --color-card: oklch(0.165 0 0);
+  --color-card-foreground: oklch(0.985 0 0);
+  --color-popover: oklch(0.165 0 0);
+  --color-popover-foreground: oklch(0.985 0 0);
+  --color-primary: oklch(0.75 0.15 85);
+  --color-primary-foreground: oklch(0.1 0 0);
+  --color-secondary: oklch(0.94 0 0);
+  --color-secondary-foreground: oklch(0.1 0 0);
+  --color-muted: oklch(0.23 0 0);
+  --color-muted-foreground: oklch(0.94 0 0);
+  --color-accent: oklch(0.75 0.15 85);
+  --color-accent-foreground: oklch(0.1 0 0);
+  --color-destructive: oklch(0.577 0.245 27.325);
+  --color-destructive-foreground: oklch(0.985 0 0);
+  --color-border: oklch(0.23 0 0);
+  --color-input: oklch(0.165 0 0);
+  --color-ring: oklch(0.75 0.15 85 / 0.5);
+  --radius: 0.5rem;
+}
+
+* {
+  border-color: var(--color-border);
+  outline-color: color-mix(in oklch, var(--color-ring), transparent 50%);
+}
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  /* Added smooth scrolling and luxury styling */
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+  /* Custom scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-background);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-accent);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary);
+  }
+/* Added luxury typography styles */
+.text-luxury {
+  font-family: ui-serif, Georgia, serif;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+
+.text-luxury-bold {
+  font-family: ui-serif, Georgia, serif;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
