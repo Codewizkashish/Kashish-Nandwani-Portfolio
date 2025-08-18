@@ -31,8 +31,8 @@ export default function ProjectsPage() {
         "A luxury portfolio website with advanced animations and magnetic interactions.",
       tech: ["Next.js", "TypeScript", "GSAP", "Framer Motion", "Tailwind CSS"],
       image: "/videos/portfolio.mp4",
-      code: "#",
-      link: "#",
+      code: "https://github.com/Codewizkashish/portfolio",
+      link: "https://kashish-nandwani-portfolio.vercel.app/",
     },
     {
       title: "LoreCrate",

@@ -63,18 +63,18 @@ export default function HeroSection() {
     },
   ];
 
-  const codingPlatforms = [
-    {
-      name: "LeetCode",
-      href: "https://leetcode.com/u/codewizkashish/",
-      icon: Code2,
-    },
-    {
-      name: "CodeChef",
-      href: "https://www.codechef.com/users/codishkashh",
-      icon: Terminal,
-    },
-  ];
+  // const codingPlatforms = [
+  //   {
+  //     name: "LeetCode",
+  //     href: "https://leetcode.com/u/codewizkashish/",
+  //     icon: Code2,
+  //   },
+  //   {
+  //     name: "CodeChef",
+  //     href: "https://www.codechef.com/users/codishkashh",
+  //     icon: Terminal,
+  //   },
+  // ];
   return (
     <main ref={containerRef} className="relative">
       <section className="h-screen flex items-center justify-center px-6 md:px-8">
@@ -101,7 +101,7 @@ export default function HeroSection() {
             ))}
           </div>
 
-          {/* 🔗 Coding Platforms (Row 2) */}
+          {/* 🔗 Coding Platforms (Row 2)
           <div className="flex justify-center gap-8 mt-4 font-mono text-lg">
             {codingPlatforms.map((platform) => (
               <Link
@@ -113,7 +113,7 @@ export default function HeroSection() {
                 {platform.name}
               </Link>
             ))}
-          </div>
+          </div> */}
         </div>
       </section>
 
