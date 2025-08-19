@@ -18,7 +18,7 @@ export default function SkillsPage() {
       title: "Frontend",
       skills: [
         { name: "React", level: 95 },
-        { name: "Next.js", level: 90 },
+        { name: "Next.js", level: 95 },
         { name: "TypeScript", level: 88 },
         { name: "Tailwind CSS", level: 92 },
         { name: "GSAP", level: 85 },
@@ -32,7 +32,7 @@ export default function SkillsPage() {
         { name: "Python", level: 80 },
         { name: "PostgreSQL", level: 82 },
         { name: "MongoDB", level: 78 },
-        { name: "GraphQL", level: 75 },
+        { name: "MySQL", level: 85 },
         { name: "REST APIs", level: 90 },
       ],
     },
@@ -41,10 +41,10 @@ export default function SkillsPage() {
       skills: [
         { name: "Git", level: 90 },
         { name: "Docker", level: 75 },
-        { name: "AWS", level: 70 },
-        { name: "Figma", level: 85 },
+        { name: "Cloud services", level: 85 },
+        { name: "Figma", level: 80 },
         { name: "Vercel", level: 88 },
-        { name: "Supabase", level: 82 },
+        { name: "Supabase", level: 80 },
       ],
     },
   ]
